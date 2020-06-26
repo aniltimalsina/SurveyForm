@@ -1,0 +1,1 @@
+This is second project under Responsive Web design Certification in FCC. This is made using HTML, CSS and little bit of basic JavaScript.
