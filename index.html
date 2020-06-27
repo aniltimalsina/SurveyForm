@@ -6,6 +6,75 @@
     <title>SurveyForm</title>
 </head>
 <body>
+    <div id="page">
+        <div class="heading">
+            <h1 id="title">Lockdown Experience Survey Form</h1>
+            <p id="description">Stay Safe, Stay Healthy</p>
+        </div>
+        <div id="container-box">
+            <form id="survey-form">
+                <label for="name" id="name-label"> 
+                    Name 
+                    <input type="text" id="name" name="name" required placeholder="Enter your name"> 
+                </label>
+                <br>
+                <label for="email" id="email-label">
+                    Email
+                    <input type="email" id="email" name="email"  required placeholder="Enter your Email">
+                </label>
+                <br>
+                <label for="age" id="number-label">
+                    Age(optional)
+                    <input type="number" id="age" name="age" placeholder="Age" min="8">
+                </label>
+                <p>What is your current Status?</p>
+                <label for ="dropdown">
+                    <select id="dropdown">
+                        <option>Student</option>
+                        <option>Employee in Govenment Office</option>
+                        <option>Employee in Private company</option>
+                        <option>Teacher</option>
+                        <option>Housewife</option>
+                        <option>Other</option>
+                    </select>
+                </label>
+                <p>Do you think lockdown is the best solution to control COVID-19 situation ?</p>
+                <label for="definitely">
+                    <input type="radio" id="definitely" name="lockdown-solution" value="definitely" checked>Definitely
+                </label>
+                <label for="notsure">
+                    <input type="radio" id="notsure" name="lockdown-solution" value="notsure">Not Sure
+                </label>
+                <label for="other">
+                    <input type="radio" id="Other" name="lockdown-solution" value="other">Other solutions would be better
+                </label>
+                <p>How did you Spend your lockdown period ? (Check all that apply)</p>
+                <label for="onlineclass">
+                    <input type="checkbox" id="onlineclass" name="timespend" value="onlineclass">Had Online Class
+                </label>
+                <label for="wfh">
+                    <input type="checkbox" id="wfh" name="timespend" value="wfh">Work From Home
+                </label>
+                <label for="netflix">
+                    <input type="checkbox" id="netflix" name="timespend" value="netflix">Netflix and chill
+                </label>
+                <label for="sleep">
+                    <input type="checkbox" id="sleep" name="timespend" value="sleep">Slept most of the time
+                </label>
+                <label for="code">
+                    <input type="checkbox" id="code" name="timespend" value="code"> Eat, Sleep, Code
+                </label>
+                <label for="nothing">
+                    <input type="checkbox" id="nothing" name="timespend" value="nothing">Better not to reveal
+                </label>
+                <p>How would anyone should be spending their lockdown to make it more productive and fruitful?</p>
+                <textarea placeholder="Enter your opinion here..."></textarea>
+                <button type="submit" id="submit">Submit</button>
+            </form>
+            
+        
+        </div>
+    </div>
     
 </body>
 </html>
