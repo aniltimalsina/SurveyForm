@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SurveyForm</title>
+    <link rel="stylesheet" href="./style.css" >
 </head>
 <body>
     <div id="page">
@@ -39,6 +40,7 @@
                     </select>
                 </label>
                 <p>Do you think lockdown is the best solution to control COVID-19 situation ?</p>
+                <div class="radio-items">
                 <label for="definitely">
                     <input type="radio" id="definitely" name="lockdown-solution" value="definitely" checked>Definitely
                 </label>
@@ -48,7 +50,9 @@
                 <label for="other">
                     <input type="radio" id="Other" name="lockdown-solution" value="other">Other solutions would be better
                 </label>
+                </div>
                 <p>How did you Spend your lockdown period ? (Check all that apply)</p>
+                <div class="checkbox-items">
                 <label for="onlineclass">
                     <input type="checkbox" id="onlineclass" name="timespend" value="onlineclass">Had Online Class
                 </label>
@@ -67,8 +71,11 @@
                 <label for="nothing">
                     <input type="checkbox" id="nothing" name="timespend" value="nothing">Better not to reveal
                 </label>
+                </div>
+                <div class="comment">
                 <p>How would anyone should be spending their lockdown to make it more productive and fruitful?</p>
                 <textarea placeholder="Enter your opinion here..."></textarea>
+                </div>
                 <button type="submit" id="submit">Submit</button>
             </form>
             
