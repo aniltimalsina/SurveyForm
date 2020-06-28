@@ -1,0 +1,35 @@
+body {
+    background-image: url('../image/road.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#page {
+    border: 2px solid red;
+    width: 35%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(170, 25%, 15%);
+}
+
+.radio-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;;
+    flex-wrap: wrap;
+}
+
+.checkbox-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
